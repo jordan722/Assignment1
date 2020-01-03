@@ -60,6 +60,12 @@
         line-height: 1;
         width: 100%; /* Add this*/
     }
+    .div-size
+     {
+        width: 75%;
+        height: auto;
+        margin: 0 auto;
+     }    
     </style>
 </head>
 
@@ -93,8 +99,8 @@
         <h3 class="margin">Clean Water</h3>
         <p><strong>Nearly 1,000 children under age 5 die every day</strong> from diarrhea caused by contaminated water, poor sanitation, and improper hygiene. But we believe the global water and sanitation crisis can be solved within our lifetimes. That’s why we’re focused on providing clean water and sanitation to every man, woman, and child in every community we work in, including the most vulnerable populations in the hardest-to-reach places.</p>
     </div>
-    <div class="container-fluid text-center">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="container-fluid bg-4 text-center">
+        <div id="myCarousel" class="carousel slide div-size" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -126,7 +132,7 @@
         <script type="text/javascript">
         $(document).ready(function() {
             $('.carousel').carousel({
-                interval: 2000
+                interval: 3000
             })
         });
         </script>
