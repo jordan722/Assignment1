@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Theme Simply Me</title>
+  <title>Clean Water for the Boyz</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -15,7 +15,7 @@
     color: #f5f6f7;
   }
   p {font-size: 16px;}
-  a {text-decoration: none;}
+ 
   .margin {margin-bottom: 45px;}
   .bg-1 { 
     background-color: #1abc9c; /* Green */
@@ -49,6 +49,17 @@
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
+  img.left {
+    float: left;
+    padding: 20px 20px 20px 20px;
+  }
+  img.right {
+    float: right;
+    padding: 20px 20px 20px 20px;
+  }
+  p.mission{
+    padding: 55px 20px 20px 20px;
+  }
   .social-img{
     width: 50px;
     height: 50px;
@@ -64,38 +75,52 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="index.html">Clean Water Fund</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="donate.html">DONATE</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
-  <h3>I'm an adventurer</h3>
-</div>
 
-<!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
+  <h1 class="margin">The Water Crisis</h1>
+  <div>
+  <img class="right" src="https://images.pexels.com/photos/1125850/pexels-photo-1125850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive margin" style="display:inline" height="450">
+  <p class="mission">According to a 2018 UN report, two billion people currently live in countries that regularly undergo water stress, while two-thirds of the world's population suffer severe water scarcity for at least one month out of the year.</p>
+  <p class="mission">Shifting weather patterns will further exacerbate water conditions, displacing up to 700 million people from arid and semi-arid regions. According to a 2017 report by UNICEF, over 600 million children will be living in areas of high water stress and insecurity by the year 2040.</p>
+  <p class="mission">Clean water is not only a necessity for life, but is also essential for sustaining agriculture and the ecosystems people need to thrive and break out of the cycle of poverty. Communities with access to secure and sustainable water resources are more resilient against water-related hazards and conflict. Improving water security means improved outlooks in overall health, hygiene, and sanitation.</p>
+  </div>
 </div>
 
-<!-- Third Container (Grid) -->
+<div class="container-fluid bg-1 text-center">
+  <h1 class="margin">Our Mission</h1>
+  <div>
+  <img class="left" src="https://images.pexels.com/photos/66346/pexels-photo-66346.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-responsive margin" style="display:inline" width="450" height="450">
+  <p class="mission">The Clean Water Fund is committed to confronting the water crisis in underserved and underedeveloped regions. We improve access to safe water by promoting investment in agriculture and other water-reliant sectors that generate income for poor communities. Through local participation in policy decisions, we develop water provision strategies tailored to the individual and long-term needs of insecure regions.</p>
+  <p class="mission">We are proud to partner with some of the most respected foundations and agencies in the world who share our passion to address the water crisis.</p>
+  </div>
+</div>
+
 <div class="container-fluid bg-3 text-center">
+  <h1 class="margin">How You Can Help</h1>
+  <div>
+  <img class="right" src="https://images.pexels.com/photos/40784/drops-of-water-water-nature-liquid-40784.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-responsive margin" style="display:inline" width="460" height="460">
+  <p class="mission">When people have access to clean water, they gain opportunities to acquire an education, earn a living, and care for their families.</p>
+  <p class="mission">With your support, the Clean Water Fund has mobilized the water and sanitation sector by providing communities with improved health and access to social and economic resources. In the past 15 years, we have over funded 22,000 water projects in 36 countries.</p>
+<!-- Third Container (Grid) -->
+<div id="body" class="container-fluid  text-center">
+  <a class="btn btn-primary" href="donate.html" role="button" style="background:#1abc9c">Donate</a>
+</div>
+
+<div class="container-fluid bg-2 text-center">
   <h3 class="margin">Find Us:</h3>
   <div class="d-flex w-50 justify-content-between">
     <a href="#"">
@@ -117,10 +142,14 @@
 </div>
 
 
+
+
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+  <p>Made by Kun Yu, Jordan Yaqoob, Isabella Berekdar, Samson Wu</p>
+  <p> CUNY2X Gang </p>
 </footer>
 
 </body>
 </html>
+
